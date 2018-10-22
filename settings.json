@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Atom One Dark",    
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 0,
+
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 28,
+
+    "editor.detectIndentation": false,
+    
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+
+    // Controls if the explorer should automatically reveal and select files when opening them.
+    "explorer.autoReveal": false,
+
+    // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
+    "workbench.editor.enablePreview": false,
+    
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
+    
+    "editor.fontWeight": "600",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+
+    // Use 'prettier-tslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from tslint rules.
+    "prettier.tslintIntegration": true,
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.eol": "\n",    
+
+    // Disable usage data and errors to be sent to a Microsoft online service.
+    "telemetry.enableTelemetry": false,
+
+    // show full path in title bar
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+}
