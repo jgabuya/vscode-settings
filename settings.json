@@ -1,9 +1,7 @@
-{
-  "workbench.colorTheme": "Material Theme",
+  {
+  "workbench.colorTheme": "One Dark Pro Bold",
   "editor.fontSize": 15,
   "editor.detectIndentation": false,
-  "prettier.tslintIntegration": true,
-  "prettier.stylelintIntegration": true,
   "window.zoomLevel": 1,
   "explorer.openEditors.visible": 0,
 
@@ -18,5 +16,35 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.fontFamily": "Inconsolata, Monaco, Menlo, 'Courier New', monospace",
   "editor.tabSize": 2,
-  "explorer.autoReveal": false
+  "explorer.autoReveal": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Golang
+  "go.lintTool":"golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+    ],
+  "plantuml.java": "/usr/bin/java",
+  "liveshare.featureSet": "insiders",
+  "debug.node.autoAttach": "on",
+  "files.insertFinalNewline": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "go.formatTool": "gofmt",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "yaml.format.enable": true,
+  "workbench.colorCustomizations": {}
 }
